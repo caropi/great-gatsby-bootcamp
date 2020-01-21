@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'gatsby'
 
+import headerStyles from './header.module.scss'
+
 const Header = () => {
     return (
         <header>
@@ -8,16 +10,16 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link className={headerStyles.headerLink} to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link className={headerStyles.headerLink} to="/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link className={headerStyles.headerLink} to="/blog">Blog</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link className={headerStyles.headerLink} to="/contact">Contact</Link>
                     </li>
                 </ul>
             </nav>

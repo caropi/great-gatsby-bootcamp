@@ -8,12 +8,24 @@
     text-decoration: none;
 }
 
-.nav-list {
+.navList {
     display: flex;
     list-style-type: none;
     margin: 0;
 }
 
-.headerLink {
+.navItem {
     color: #999;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.navItem:hover {
+    color: #666;
+}
+
+.activeNavItem {
+    color: #333;
 }

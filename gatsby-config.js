@@ -6,7 +6,14 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata : {
+    title: 'Full-stack bootcamp!',
+    author: 'Caroline Pisano'
+  },
   plugins: [
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem'
+    }
   ]
 }

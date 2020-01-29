@@ -3,7 +3,7 @@ import {graphql} from 'gatsby'
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 
 import Layout from '../pages/components/layout'
-import Head from "./components/head"
+import Head from "../pages/components/head"
 
 export const query = graphql`
   query($slug: String!) {

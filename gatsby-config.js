@@ -14,6 +14,7 @@ module.exports = {
     author: 'Caroline Pisano'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {

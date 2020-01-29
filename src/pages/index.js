@@ -2,10 +2,12 @@ import React from 'react'
 import {Link} from 'gatsby'
 
 import Layout from './components/layout'
+import Head from './components/head'
 
 const indexPage = () => {
     return (
         <Layout>
+        <Head title='Home'/>
             <h1>Hello.</h1>
             <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, unde beatae. Amet ipsa mollitia doloribus adipisci nam autem, veniam ad quod harum libero. Quidem unde accusamus expedita officia voluptatibus vitae.</h2>
             
